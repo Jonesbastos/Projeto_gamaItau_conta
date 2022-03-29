@@ -1,0 +1,53 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class ListaDeMenu {
+	
+	public static void main(String[] args) {
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		ArrayList<Cliente> cliente = new ArrayList<Cliente>();
+		
+		int opcao;
+		
+		
+			
+			System.out.println("[1] - Cadastrar Cliente");
+			System.out.println("[2] - Consultar Saldo");
+			
+			switch (opcao) {
+			case 1 :
+				System.out.println("===== CADASTRO DE CLIENTE =====");
+				System.out.print("Digite o Agencia: ");
+				String agencia = teclado.nextLine();
+				System.out.println("Digite a Conta: ");
+				String conta = teclado.nextLine();
+				System.out.println("Digite o seu nome: ");
+				String nome = teclado.nextLine();
+				System.out.println("Digite o seu email: ");
+				String email = teclado.nextLine();
+				System.out.println("Digite o seu telefone: ");
+				String telefone = teclado.nextLine();
+				System.out.println("Digite seu saldo: ");
+				String saldo = teclado.nextLine();
+				
+				Cliente c = new Cliente();
+				c.setAgencia(agencia);
+				c.setConta(conta);
+				c.setNome(nome);
+				c.setEmail(email);
+				c.setTelefone(telefone);
+				c.setSaldo(saldo);
+				
+				
+				break;
+			
+			}
+			
+					 				
+		
+		
+
+     }
+}	

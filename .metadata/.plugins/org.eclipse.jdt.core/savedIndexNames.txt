@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\Jones\OneDrive\Área de Trabalho\Gama Academy – Projeto Itaú\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+11129711.index
+353445915.index
+75931715.index
